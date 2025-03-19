@@ -1,0 +1,20 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_service
+  - goodbye
+
+responses:
+  utter_greet:
+    - text: "Xin chào! Tôi có thể giúp gì cho bạn?"
+  utter_service:
+    - text: "Chúng tôi cung cấp dịch vụ sửa chữa và bảo trì máy lạnh tận nơi. Bạn có muốn đặt lịch không?"
+  utter_goodbye:
+    - text: "Cảm ơn bạn đã ghé thăm! Hẹn gặp lại."
+  utter_iamabot:
+    - text: "Tôi là một chatbot được tạo bằng Rasa!"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+

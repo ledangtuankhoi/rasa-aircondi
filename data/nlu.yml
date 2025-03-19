@@ -1,0 +1,21 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - Xin chào
+    - Chào bạn
+    - Hello
+    - Hi
+
+- intent: ask_service
+  examples: |
+    - Bạn có sửa máy lạnh không?
+    - Dịch vụ sửa máy lạnh của bạn thế nào?
+    - Mình muốn sửa máy lạnh
+
+- intent: goodbye
+  examples: |
+    - Tạm biệt
+    - Bye
+    - Hẹn gặp lại
+
